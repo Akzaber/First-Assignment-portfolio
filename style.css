@@ -4,6 +4,9 @@ body{
 h1{
   font-size: 65px;
 }
+h2{
+  font-size: 40px;
+}
 .button-edit{
   text-decoration: none;
   background-image: linear-gradient(tomato, rgb(224, 34, 62));
@@ -19,7 +22,7 @@ h1{
   background-image: url(images/donation13.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size:100%;
+  background-size:120%;
   padding: 10%;
   color: white;
   margin-bottom: 50px;
@@ -39,8 +42,8 @@ h2{
   color: rgb(143, 138, 138);
 }
 #background-color{
-  background-color: lightcoral;
-  border:2px solid lightcoral;
+  background-color: tomato;
+  border: 5px solid tomato;
   border-radius: 5px;
   color: white;
 }
@@ -80,11 +83,31 @@ h2{
   display: flex;
   padding: 3%;
   width: 99%;
-  margin-left: 0;
-
 }
 .extra-part img{
   margin-top: 5px;
   width: 100%;
   height: 100%;
+}
+.end-part{
+ text-align: center;
+ margin: 10%;
+ 
+}
+.end-line{
+  width: 200px;
+  height: 38px;
+  background-color: burlywood;
+  border-radius: 5px;
+  margin-top: 35px;
+}
+footer{
+  
+  text-align: center;
+  font-size: 23px;
+  color: white;
+  background-color: tomato;
+}
+footer h1{
+  font-style: italic;
 }
